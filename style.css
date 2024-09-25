@@ -44,7 +44,68 @@ body {
 
 /* 空白的意思是選擇子內容 */
 /* id選擇器, 選擇所有 id="wrapper"的東西裡面 class="btn" 的東西*/
-.wrapper .btn {
+.wrapper .btn1 {
+    /* 設置文字顏色 */
+    color: rgb(7, 7, 7); 
+    /* 設置背景顏色 */
+    background-color: #305ef4; 
+    /* 指定寬度 */
+    width: 50rem;
+    /* 撐開內邊距 */
+    padding: 3%;
+    /* 陰影 */
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    /* 外框 */
+    border: 1px solid #51515130;
+    /* 變形, 幅度為 .3rem (圓角矩形) */
+    border-radius: .3rem;
+    /* 過度動畫長度指定半秒鐘 */
+    transition: all .5s;
+}
+
+.wrapper .btn2 {
+    /* 設置文字顏色 */
+    color: rgb(200, 153, 230);
+    /* 設置背景顏色 */
+    background-color: #4d84f3; 
+    /* 指定寬度 */
+    width: 50rem;
+    /* 撐開內邊距 */
+    padding: 3%;
+    /* 陰影 */
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    /* 外框 */
+    border: 1px solid #51515130;
+    /* 變形, 幅度為 .3rem (圓角矩形) */
+    border-radius: .3rem;
+    /* 過度動畫長度指定半秒鐘 */
+    transition: all .5s;
+}
+
+.wrapper .btn3 {
+    /* 設置文字顏色為 */
+    color: rgb(192, 252, 150);
+    /* 設置背景顏色 */
+    background-color: #65b9fe; 
+    /* 指定寬度 */
+    width: 50rem;
+    /* 撐開內邊距 */
+    padding: 3%;
+    /* 陰影 */
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    /* 外框 */
+    border: 1px solid #51515130;
+    /* 變形, 幅度為 .3rem (圓角矩形) */
+    border-radius: .3rem;
+    /* 過度動畫長度指定半秒鐘 */
+    transition: all .5s;
+}
+
+.wrapper .btn4 {
+    /* 設置文字顏色 */
+    color: rgb(222, 246, 227);
+    /* 設置背景顏色 */
+    background-color: #92eaf8; 
     /* 指定寬度 */
     width: 50rem;
     /* 撐開內邊距 */
